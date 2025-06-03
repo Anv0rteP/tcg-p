@@ -15,7 +15,6 @@
   },
   "deckBuilding": {
     "mainFilters": [
-      "supertype",
       "cost",
       "Colors",
       "Rarity"
@@ -25,7 +24,8 @@
         "title": "Classic",
         "gameplay": "Classic",
         "customCategories": [
-          "Source Deck"
+          "HeroZone",
+          "SourceDeck"
         ]
       }
     ]
@@ -68,7 +68,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "Commander",
+                  "section": "HeroZone",
                   "style": {
                     "width": "20vh"
                   }
@@ -99,6 +99,12 @@
                     {
                       "section": "Mana",
                       "style": false
+                    },
+                    {
+                      "section": "SourceDeck",
+                      "style": {
+                        "width": "20vh"
+                      }
                     }
                   ],
                   "isSymetricalForOpponents": false
@@ -109,7 +115,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Source Deck->ExileHidden"
+          "HeroZone",
+          "SourceDeck"
         ],
         "autoPlayFromHand": {
           "Creature": "Creatures",
@@ -119,7 +126,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Commander"
+          "Hero": "HeroZone"
         },
         "autoPlayFromStack": {
           "Creature": "Creatures",
@@ -129,7 +136,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Commander"
+          "Hero": "HeroZone"
         },
         "sectionsDict": {
           "Mana": {
@@ -138,7 +145,7 @@
             "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -154,7 +161,7 @@
             "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -170,7 +177,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -184,9 +191,9 @@
             "title": "Creatures",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "START",
+            "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": true,
@@ -196,19 +203,35 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Commander": {
-            "title": "Commander",
+          "HeroZone": {
+            "title": "HeroZone",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SourceDeck": {
+            "title": "SourceDeck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
