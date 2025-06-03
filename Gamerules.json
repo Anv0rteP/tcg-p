@@ -1,8 +1,10 @@
 {
   "name": "TCG-P Alpha",
-  "menuBackgroundImage": "",
+  "menuBackgroundImage": "https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg",
   "defaultRessources": {
-    "backgrounds": [],
+    "backgrounds": [
+      "https://gitfront.io/r/Anv0rteP/btJ2w1yeX5QR/tcg-p/raw/TempDeskmat.jpg"
+    ],
     "decksUrl": ""
   },
   "customHelp": "",
@@ -22,7 +24,10 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-        "customCategories": []
+        "customCategories": [
+          "Source Deck",
+          "Hero"
+        ]
       }
     ]
   },
@@ -146,7 +151,10 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [],
+        "categoriesAlreadyOnBoard": [
+          "Source Deck->ExileHidden",
+          "Hero"
+        ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
           "Spell": "Discard"
