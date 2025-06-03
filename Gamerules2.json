@@ -25,6 +25,7 @@
         "title": "Classic",
         "gameplay": "Classic",
         "customCategories": [
+          "HeroZone",
           "Source Deck"
         ]
       }
@@ -68,7 +69,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "Hero",
+                  "section": "HeroZone",
                   "style": {
                     "width": "20vh"
                   }
@@ -99,6 +100,12 @@
                     {
                       "section": "Mana",
                       "style": false
+                    },
+                    {
+                      "section": "Source Deck",
+                      "style": {
+                        "width": "20vh"
+                      }
                     }
                   ],
                   "isSymetricalForOpponents": false
@@ -109,8 +116,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Hero",
-          "Source Deck->ExileHidden"
+          "HeroZone",
+          "Source Deck"
         ],
         "autoPlayFromHand": {
           "Creature": "Creatures",
@@ -120,7 +127,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Hero"
+          "Hero": "HeroZone"
         },
         "autoPlayFromStack": {
           "Creature": "Creatures",
@@ -130,7 +137,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Hero"
+          "Hero": "HeroZone"
         },
         "sectionsDict": {
           "Hand": {
@@ -317,8 +324,24 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Hero": {
-            "title": "Hero",
+          "Source Deck": {
+            "title": "Source Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "HeroZone": {
+            "title": "HeroZone",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
