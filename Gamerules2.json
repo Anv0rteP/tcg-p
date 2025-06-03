@@ -68,7 +68,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "Commander",
+                  "section": "Hero",
                   "style": {
                     "width": "20vh"
                   }
@@ -109,7 +109,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Source Deck->ExileHidden"
+          "Source Deck->ExileHidden",
+          "Hero"
         ],
         "autoPlayFromHand": {
           "Creature": "Creatures",
@@ -119,7 +120,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Commander"
+          "Hero": "Hero"
         },
         "autoPlayFromStack": {
           "Creature": "Creatures",
@@ -129,7 +130,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Commander"
+          "Hero": "Hero"
         },
         "sectionsDict": {
           "Mana": {
@@ -138,7 +139,7 @@
             "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -154,7 +155,7 @@
             "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -170,7 +171,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -186,7 +187,7 @@
             "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": true,
@@ -196,13 +197,13 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Commander": {
-            "title": "Commander",
+          "Hero": {
+            "title": "Hero",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
