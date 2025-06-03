@@ -15,7 +15,6 @@
   },
   "deckBuilding": {
     "mainFilters": [
-      "supertype",
       "cost",
       "Colors",
       "Rarity"
@@ -25,8 +24,8 @@
         "title": "Classic",
         "gameplay": "Classic",
         "customCategories": [
-          "DeckHero",
-          "Source Deck"
+          "HeroZone",
+          "SourceDeck"
         ]
       }
     ]
@@ -69,7 +68,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "Hero",
+                  "section": "HeroZone",
                   "style": {
                     "width": "20vh"
                   }
@@ -102,7 +101,7 @@
                       "style": false
                     },
                     {
-                      "section": "Source Deck",
+                      "section": "SourceDeck",
                       "style": {
                         "width": "20vh"
                       }
@@ -116,7 +115,7 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "DeckHero->Hero",
+          "HeroZone",
           "Source Deck"
         ],
         "autoPlayFromHand": {
@@ -127,7 +126,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Hero"
+          "Hero": "HeroZone"
         },
         "autoPlayFromStack": {
           "Creature": "Creatures",
@@ -137,7 +136,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Hero"
+          "Hero": "HeroZone"
         },
         "sectionsDict": {
           "Hand": {
@@ -312,7 +311,7 @@
             "title": "Creatures",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "START",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
@@ -324,24 +323,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Source Deck": {
-            "title": "Source Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": true,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Hero": {
-            "title": "Hero",
+          "HeroZone": {
+            "title": "HeroZone",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -353,6 +336,22 @@
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "SourceDeck": {
+            "title": "SourceDeck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           }
