@@ -116,7 +116,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "HeroZone",
-          "Source Deck"
+          "SourceDeck"
         ],
         "autoPlayFromHand": {
           "Creature": "Creatures",
