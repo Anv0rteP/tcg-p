@@ -114,10 +114,7 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "HeroZone",
-          "SourceDeck"
-        ],
+        "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {
           "Creature": "Creatures",
           "Spell": "Stack",
