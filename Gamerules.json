@@ -1,17 +1,17 @@
 {
   "name": "TCG-P Alpha",
-  "menuBackgroundImage": "https://gitfront.io/r/Anv0rteP/btJ2w1yeX5QR/tcg-p/raw/Cardback.jpg",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/Anv0rteP/tcg-p/refs/heads/main/Cardback.jpg",
   "defaultRessources": {
     "backgrounds": [
-      "https://gitfront.io/r/Anv0rteP/btJ2w1yeX5QR/tcg-p/raw/TempDeskmat.jpg"
+      "https://raw.githubusercontent.com/Anv0rteP/tcg-p/refs/heads/main/TempDeskmat.jpg"
     ],
     "decksUrl": ""
   },
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://gitfront.io/r/Anv0rteP/btJ2w1yeX5QR/tcg-p/raw/CardList.json",
-    "cardBack": "https://gitfront.io/r/Anv0rteP/btJ2w1yeX5QR/tcg-p/raw/Cardback.jpg"
+    "dataUrl": "https://raw.githubusercontent.com/Anv0rteP/tcg-p/refs/heads/main/CardList.json",
+    "cardBack": "https://raw.githubusercontent.com/Anv0rteP/tcg-p/refs/heads/main/Cardback.jpg"
   },
   "deckBuilding": {
     "mainFilters": [
