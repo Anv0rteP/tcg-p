@@ -26,7 +26,7 @@
         "gameplay": "Classic",
         "customCategories": [
           "Source Deck",
-          "Hero Start"
+          "Commander"
         ]
       }
     ]
@@ -69,7 +69,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "Hero Start",
+                  "section": "Commander",
                   "style": {
                     "width": "20vh"
                   }
@@ -111,7 +111,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "Source Deck->ExileHidden",
-          "Hero Start"
+          "Commander"
         ],
         "autoPlayFromHand": {
           "Creature": "Creatures",
@@ -198,8 +198,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Hero Start": {
-            "title": "Hero Start",
+          "Commander": {
+            "title": "Commander",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
