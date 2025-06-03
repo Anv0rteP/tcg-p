@@ -54,17 +54,10 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Creature #1",
-          "Creature #2",
-          "Creature #3",
-          "Creature #4",
-          "Creature #5",
-          "Creature #6",
-          "Location Domain",
-          "Weather Domain",
-          "Event Domain",
-          "Artifact Zone",
-          "Source Zone",
+          "Creatures",
+          "Domains",
+          "Artifacts",
+          "Mana",
           "Hero"
         ],
         "layout": {
@@ -77,30 +70,12 @@
               "content": [
                 {
                   "section": "Hero",
-                  "style": false
+                  "style": {
+                    "width": "20vh"
+                  }
                 },
                 {
-                  "section": "Creature #1",
-                  "style": false
-                },
-                {
-                  "section": "Creature #2",
-                  "style": false
-                },
-                {
-                  "section": "Creature #3",
-                  "style": false
-                },
-                {
-                  "section": "Creature #4",
-                  "style": false
-                },
-                {
-                  "section": "Creature #5",
-                  "style": false
-                },
-                {
-                  "section": "Creature #6",
+                  "section": "Creatures",
                   "style": false
                 }
               ],
@@ -112,29 +87,12 @@
               "content": [
                 {
                   "direction": "row",
-                  "style": {
-                    "width": "100vh"
-                  },
-                  "content": [
-                    {
-                      "section": "Location Domain",
-                      "style": false
-                    },
-                    {
-                      "section": "Weather Domain",
-                      "style": false
-                    },
-                    {
-                      "section": "Event Domain",
-                      "style": false
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
-                },
-                {
-                  "direction": "row",
                   "style": false,
                   "content": [
+                    {
+                      "section": "Domains",
+                      "style": false
+                    },
                     {
                       "section": "Artifacts",
                       "style": false
@@ -155,162 +113,34 @@
           "Source Deck->ExileHidden",
           "Hero"
         ],
-        "autoPlayFromHand": {},
+        "autoPlayFromHand": {
+          "Creature": "Creatures",
+          "Spell": "Stack",
+          "Enchantment": "GROUP",
+          "Equipment": "GROUP",
+          "Domain": "Domains",
+          "Artifact": "Artifacts",
+          "Source": "Mana",
+          "Hero": "Stack"
+        },
         "autoPlayFromStack": {
-          "Spell": "Discard"
+          "Creature": "Creatures",
+          "Spell": "Discard",
+          "Enchantment": "GROUP",
+          "Equipment": "GROUP",
+          "Domain": "Domains",
+          "Artifact": "Artifacts",
+          "Source": "Mana",
+          "Hero": "Discard"
         },
         "sectionsDict": {
-          "Creature #1": {
-            "title": "Creature #1",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #1",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Creature #2": {
-            "title": "Creature #2",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #2",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Creature #3": {
-            "title": "Creature #3",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #3",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Creature #4": {
-            "title": "Creature #4",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #4",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Creature #5": {
-            "title": "Creature #5",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #5",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Creature #6": {
-            "title": "Creature #6",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Creature #6",
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
           "Hero": {
             "title": "Hero",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Location Domain": {
-            "title": "Location Domain",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Weather Domain": {
-            "title": "Weather Domain",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Event Domain": {
-            "title": "Event Domain",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -323,10 +153,10 @@
           "Mana": {
             "title": "Mana",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -339,10 +169,10 @@
           "Artifacts": {
             "title": "Artifacts",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "END",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
@@ -351,6 +181,38 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Domains": {
+            "title": "Domains",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Creatures": {
+            "title": "Creatures",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           }
         }
       }
