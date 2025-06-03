@@ -121,7 +121,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Stack"
+          "Hero": "Hero Start"
         },
         "autoPlayFromStack": {
           "Creature": "Creatures",
@@ -131,7 +131,7 @@
           "Domain": "Domains",
           "Artifact": "Artifacts",
           "Source": "Mana",
-          "Hero": "Discard"
+          "Hero": "Hero Start"
         },
         "sectionsDict": {
           "Mana": {
