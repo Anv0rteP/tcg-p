@@ -57,7 +57,8 @@
           "Domains",
           "Artifacts",
           "Mana",
-          "Hero"
+          "HeroZone",
+          "SourceDeck"
         ],
         "layout": {
           "direction": "column",
