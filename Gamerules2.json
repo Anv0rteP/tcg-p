@@ -34,7 +34,7 @@
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "3",
+        "startingHandSize": "1",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
