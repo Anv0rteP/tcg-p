@@ -76,43 +76,43 @@
                 {
                   "section": "HeroZone",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 1",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 2",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 3",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 4",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 5",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 },
                 {
                   "section": "Creature 6",
                   "style": {
-                    "width": "20vh"
+                    "width": "25vh"
                   }
                 }
               ],
@@ -346,7 +346,7 @@
           "SourceDeck": {
             "title": "SourceDeck",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": true,
