@@ -54,11 +54,11 @@
       "sections": {
         "customSections": [
           "Creature 1",
-		  "Creature 2",
-		  "Creature 3",
-		  "Creature 4",
-		  "Creature 5",
-		  "Creature 6",
+          "Creature 2",
+          "Creature 3",
+          "Creature 4",
+          "Creature 5",
+          "Creature 6",
           "Domains",
           "Artifacts",
           "Mana",
@@ -74,45 +74,45 @@
               "style": false,
               "content": [
                 {
-                  "section": "HeroZone",
-                  "style": {
-                    "width": "30vh"
-                  }
-                },
-                {
                   "section": "Creature 1",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
                   }
                 },
                 {
                   "section": "Creature 2",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
                   }
                 },
                 {
-                  "section": "Creature 3",
+                  "section": "Creature 2",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
+                  }
+                },
+                {
+                  "section": "HeroZone",
+                  "style": {
+                    "width": "20vh"
                   }
                 },
                 {
                   "section": "Creature 4",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
                   }
                 },
                 {
                   "section": "Creature 5",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
                   }
                 },
                 {
                   "section": "Creature 6",
                   "style": {
-                    "width": "30vh"
+                    "width": "20vh"
                   }
                 }
               ],
@@ -129,18 +129,20 @@
                     {
                       "section": "Domains",
                       "style": {
-                        "width": "41vh"
+                        "width": "40vh"
                       }
                     },
                     {
                       "section": "Artifacts",
                       "style": {
-                        "width": "100vh"
+                        "width": "40vh"
                       }
                     },
                     {
                       "section": "Mana",
-                      "style": false
+                      "style": {
+                        "width": "40vh"
+                      }
                     },
                     {
                       "section": "SourceDeck",
@@ -245,7 +247,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-		  "Creature 2": {
+          "Creature 2": {
             "title": "Creature 2",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -261,7 +263,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-		  "Creature 3": {
+          "Creature 3": {
             "title": "Creature 3",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -277,7 +279,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-		  "Creature 4": {
+          "Creature 4": {
             "title": "Creature 4",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -293,7 +295,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-		  "Creature 5": {
+          "Creature 5": {
             "title": "Creature 5",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -309,7 +311,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-		  "Creature 6": {
+          "Creature 6": {
             "title": "Creature 6",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -329,7 +331,7 @@
             "title": "HeroZone",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "START",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
