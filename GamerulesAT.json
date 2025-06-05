@@ -54,11 +54,11 @@
       "sections": {
         "customSections": [
           "Creature 1",
-          "Creature 2",
-          "Creature 3",
-          "Creature 4",
-          "Creature 5",
-          "Creature 6",
+		  "Creature 2",
+		  "Creature 3",
+		  "Creature 4",
+		  "Creature 5",
+		  "Creature 6",
           "Domains",
           "Artifacts",
           "Mana",
@@ -74,6 +74,12 @@
               "style": false,
               "content": [
                 {
+                  "section": "HeroZone",
+                  "style": {
+                    "width": "20vh"
+                  }
+                },
+                {
                   "section": "Creature 1",
                   "style": {
                     "width": "20vh"
@@ -86,13 +92,7 @@
                   }
                 },
                 {
-                  "section": "Creature 2",
-                  "style": {
-                    "width": "20vh"
-                  }
-                },
-                {
-                  "section": "HeroZone",
+                  "section": "Creature 3",
                   "style": {
                     "width": "20vh"
                   }
@@ -129,25 +129,25 @@
                     {
                       "section": "Domains",
                       "style": {
-                        "width": "40vh"
+                        "width": "30vh"
                       }
                     },
                     {
                       "section": "Artifacts",
                       "style": {
-                        "width": "40vh"
+                        "width": "50vh"
                       }
                     },
                     {
                       "section": "Mana",
                       "style": {
-                        "width": "40vh"
+                        "width": "50vh"
                       }
                     },
                     {
                       "section": "SourceDeck",
                       "style": {
-                        "width": "40vh"
+                        "width": "30vh"
                       }
                     }
                   ],
@@ -247,7 +247,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Creature 2": {
+		  "Creature 2": {
             "title": "Creature 2",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -263,7 +263,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Creature 3": {
+		  "Creature 3": {
             "title": "Creature 3",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -279,7 +279,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Creature 4": {
+		  "Creature 4": {
             "title": "Creature 4",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -295,7 +295,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Creature 5": {
+		  "Creature 5": {
             "title": "Creature 5",
             "isHidden": "no",
             "height": "MEDIUM",
@@ -311,7 +311,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Creature 6": {
+		  "Creature 6": {
             "title": "Creature 6",
             "isHidden": "no",
             "height": "MEDIUM",
